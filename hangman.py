@@ -62,7 +62,7 @@ def makeWord(haha):
         sabda+=i
     return sabda
 
-
+#include list of words in this list below(list_of_words)
 list_of_words=["apple","banana","cucumber","hotdog","watermelon","orange","pear","cherry","strawberry","nectarine","grape"]
 
 word=random.choice(list_of_words)
