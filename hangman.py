@@ -1,5 +1,4 @@
 import random
-import time
 stages = ['''
   +---+
   |   |
@@ -93,10 +92,8 @@ while game_over==False:
     print(stages[lives])
     if " _ " not in characters:
         print("You win")
-        sleep.time(3)
         game_over=True
     if lives==0:
         print("You lose")
         game_over=True
-        sleep.time(3)
 
